@@ -1,9 +1,12 @@
-.user-component,
+.user-component {
+  margin-left: var(--horizontal-space);
+}
 .user-component__column:first-child {
   display: flex;
   align-items: center;
   position: relative;
-  top: 100px;
+  top: 180px;
+  z-index: 1;
 }
 
 .user-component__title {
@@ -20,4 +23,10 @@
   height: 70px;
   border-radius: 30px;
   margin-right: 20px;
+}
+
+.user-component__avatar--xl {
+  width: 80px;
+  height: 80px;
+  border-radius: 35px;
 }
