@@ -1,12 +1,12 @@
 .user-component {
-  margin-left: var(--horizontal-space);
+  position: relative;
+  top: 162px;
+  z-index: 3;
+  /* margin-top: 10px; */ >> 적용안됨 
 }
 .user-component__column:first-child {
   display: flex;
   align-items: center;
-  position: relative;
-  top: 180px;
-  z-index: 1;
 }
 
 .user-component__title {

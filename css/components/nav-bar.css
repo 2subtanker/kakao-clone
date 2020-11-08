@@ -6,7 +6,7 @@
   bottom: 0;
   width: 100%;
   box-sizing: border-box;
-  z-index: 4;
+  z-index: 2;
   background-color: white;
 }
 .nav__list {
