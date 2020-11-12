@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Chat with Kimhwanseo - KaKaoclone</title>
+    <script
+      src="https://kit.fontawesome.com/6478f529f2.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+  <body id="chat-screen">
+    <div class="status-bar">
+      <div class="status-bar__column">
+        <!-- name rule = BEM 
+          클래스 이름을 보고 무슨기능을 하는지 알 수 있도록 적기-->
+        <!-- iconsite heroicons, fontawesome -->
+        <span>No Service</span>
+        <!--Todo wifi Icon -->
+        <i class="fas fa-wifi"></i>
+      </div>
+      <div class="status-bar__column">
+        <span>18:42</span>
+      </div>
+      <div class="status-bar__column">
+        <span>100%</span>
+        <!-- Battery Icon -->
+        <i class="fas fa-battery-full fa-lg"></i>
+
+        <!-- Lighting Icon -->
+        <i class="fas fa-bolt"></i>
+      </div>
+    </div>
+    <header class="alt-header">
+      <div class="alt-header__column">
+        <a href="chats.html"><i class="fas fa-angle-left fa-3x"></i></a>
+      </div>
+      <div class="alt-header__column">
+        <h1 class="alt-header__title">Kimhwanseo</h1>
+      </div>
+      <div class="alt-header__column">
+        <span><i class="fas fa-search fa-lg"></i></span>
+        <span><i class="fas fa-bars fa-lg"></i></span>
+      </div>
+    </header>
+    <main class="main-screen main-chat">
+      <div class="chat__timestamp">2020년 11월 12일 목요일</div>
+
+      <div class="message-row">
+        <img src="userimage/user3.png" />
+        <div class="message-row__content">
+          <span class="message__author"> 카카오뱅크 </span>
+          <div class="message__info">
+            <span class="message__bubble">안녕!</span>
+            <span class="message__time">22:40</span>
+          </div>
+        </div>
+      </div>
+    </main>
+  </body>
+</html>
