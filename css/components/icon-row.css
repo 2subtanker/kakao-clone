@@ -16,3 +16,7 @@
 .icon-row__icon span {
   margin-top: 18px;
 }
+
+.fa-times-circle {
+  color: red;
+}
